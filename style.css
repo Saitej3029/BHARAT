@@ -1,0 +1,86 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h1 {
+    margin: 0 0 20px;
+    font-size: 24px;
+}
+
+form {
+    display: flex;
+}
+
+form input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+}
+
+form button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-left: none;
+    background: #5cb85c;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+form button:hover {
+    background: #4cae4c;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px;
+    background: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li:nth-child(even) {
+    background: #f1f1f1;
+}
+
+ul li button {
+    background: #d9534f;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+ul li button:hover {
+    background: #c9302c;
+}
+
+ul li.completed {
+    text-decoration: line-through;
+    color: #777;
+}
